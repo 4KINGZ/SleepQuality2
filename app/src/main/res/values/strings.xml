@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SleepQuality</string>
+    <string-array name="axes">
+        <item>X axe</item>
+        <item>Y axe</item>
+        <item>Z axe</item>
+
+    </string-array>
+</resources>

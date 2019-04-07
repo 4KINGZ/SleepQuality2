@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphid"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="244dp"
+        android:background="#80ffffff" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="165dp"
+        android:text="Save graph" />
+
+    <Button
+        android:id="@+id/btnAssess"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="67dp"
+        android:text="evaluate Sleep quality" />
+
+</RelativeLayout>
