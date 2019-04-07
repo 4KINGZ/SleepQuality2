@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("native-lib");
     }
     private Button button;
+    private int oo=0;
 
 
 
